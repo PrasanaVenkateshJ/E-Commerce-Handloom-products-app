@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #eee;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: blue;
+}
+
+.group-title {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #555;
+}
